@@ -8,5 +8,37 @@
   <!-- revertお試し -->
   <h1>勉強しよう！</h1>
   <p>HTMLを学びましょう</p>
+  <div>
+    <table class="main_table">
+      <tr>
+        <th>aa</th>
+        <th>bb</th>
+      </tr>
+      <tr>
+        <td>data1</td>
+        <td>data2</td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
+
+<style>
+  .main_table {
+    /* border: solid 1px; */
+    border-collapse:  collapse;
+  }
+
+  .main_table th,td {
+    border: solid 1px;
+  }
+  .main_table th {
+    background-color:blue;
+    color: #fff;
+    border-color: #000;
+  }
+
+  .main_table td {
+    background-color:aliceblue;
+  }
+</style>
